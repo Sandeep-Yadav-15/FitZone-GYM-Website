@@ -1,0 +1,304 @@
+/* Adjust font size for screens 1200px and smaller */
+@media (max-width: 1200px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+/* Adjust layout for screens 991px and smaller */
+@media (max-width: 991px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .modal-content {
+        width: 80%;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        width: 255px;
+        right: -100%;
+        transition: all 0.5s ease;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: var(--bg-color);
+    }
+    .navbar a {
+        font-size: 22px;
+        padding: 17px;
+        display: block;
+        /* color: rgb(234,108,54); */
+        color: 	#e7e7e7;
+    }
+    .navbar.active {
+        right: 0;
+        background: transparent;
+    }
+    .header {
+        padding: 2rem 3%;
+    }
+    .section {
+        padding: 10rem 3%;
+    }
+    .services {
+        padding: 7rem;
+    }
+    .about-content h2 {
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .review .review-slider {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer {
+        padding: 40px 0;
+    }
+
+    .join-us-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .join-us-form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .join-us-form form {
+        padding: 2rem;
+    }
+    .join-us-form label {
+        font-size: 1rem;
+    }
+    .join-us-form input, .join-us-form textarea {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .join-us-form button[type="submit"] {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+
+    .book-class-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .book-class-form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+    }
+    .book-class-form form {
+        padding: 2rem;
+    }
+    .book-class-form label {
+        font-size: 1rem;
+    }
+    .book-class-form input, .book-class-form textarea {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+    .book-class-form button[type="submit"] {
+        padding: 1rem 2rem;
+        font-size: 1rem;
+    }
+}
+
+/* Adjust layout for screens 786px and smaller */
+@media (max-width: 786px) {
+    .home {
+        flex-direction: column;
+    }
+    .home-content h3 {
+        font-size: 4.5rem;
+        margin-top: 1.5rem;
+    }
+    .home-content h1 {
+        font-size: 5rem;
+        margin-top: 1.5rem;
+    }
+    .home-content {
+        order: 2;
+    }
+    .home-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+
+    .modal-content {
+        width: 90%;
+        padding: 15px;
+    }
+      
+      .modal-content h2 {
+        font-size: 1.8rem;
+    }
+      
+      .modal-content p {
+        font-size: 1.2rem;
+    }
+    
+      .home-btn {
+        font-size: 1.3rem;
+        padding: 10px 15px;
+    }
+
+
+    .about {
+        flex-direction: column;
+    }
+    .about-img img {
+        width: 70vw;
+        margin-top: 4rem;
+    }
+    .about-content {
+        text-align: center;
+    }
+    .services h2 {
+        margin-bottom: 3rem;
+    }
+
+    .pricing-content {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+
+    .box {
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .join-us-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .join-us-form h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .join-us-form form {
+        padding: 1.5rem;
+    }
+    .join-us-form label {
+        font-size: 0.9rem;
+    }
+    .join-us-form input, .join-us-form textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    .join-us-form button[type="submit"] {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .book-class-form {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .book-class-form h2 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+    }
+    .book-class-form form {
+        padding: 1.5rem;
+    }
+    .book-class-form label {
+        font-size: 0.9rem;
+    }
+    .book-class-form input, .book-class-form textarea {
+        padding: 0.8rem;
+        font-size: 0.9rem;
+    }
+    .book-class-form button[type="submit"] {
+        padding: 0.8rem 1.5rem;
+        font-size: 0.9rem;
+    }
+}
+
+/* Adjust layout for screens 617px and smaller */
+@media (max-width: 617px) {
+    .home-img img {
+        max-width: 90%;
+        margin-top: 8rem;
+    }
+}
+
+/* Adjust font size for screens 450px and smaller */
+@media (max-width: 450px) {
+    html {
+        font-size: 50%;
+    }
+
+    .join-us-form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .join-us-form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.2rem;
+    }
+    .join-us-form form {
+        padding: 1rem;
+    }
+    .join-us-form label {
+        font-size: 1rem;
+    }
+    .join-us-form input, .join-us-form textarea {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .join-us-form button[type="submit"] {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .book-class-form {
+        width: 95%;
+        margin: 0 auto;
+    }
+    .book-class-form h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.2rem;
+    }
+    .book-class-form form {
+        padding: 1rem;
+    }
+    .book-class-form label {
+        font-size: 1rem;
+    }
+    .book-class-form input, .book-class-form textarea {
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+    .book-class-form button[type="submit"] {
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+    }
+
+    .modal-content {
+        width: 95%;
+        padding: 10px;
+      }
+      
+      .modal-content h2 {
+        font-size: 1.5rem;
+      }
+      
+      .modal-content p {
+        font-size: 1rem;
+      }
+    
+      .home-btn {
+        font-size: 1.1rem;
+        padding: 8px 12px;
+      }
+}
+
+
+
+
+
+
